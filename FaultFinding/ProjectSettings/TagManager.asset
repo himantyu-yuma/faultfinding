@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Master
+  - Item
+  - MessageManager
+  - Exit
+  - FirstDoor
+  - SecondDoor
   layers:
   - Default
   - TransparentFX

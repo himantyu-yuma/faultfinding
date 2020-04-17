@@ -1,0 +1,4 @@
+﻿interface IBugable
+{
+    void BugFix();
+}

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1173159603762652602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1173159603762652600}
+  - component: {fileID: 1173159603762652603}
+  - component: {fileID: 697259703}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Master
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1173159603762652600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173159603762652602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1173159603762652603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173159603762652602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b010d3745d8cc40a70454689e7a088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsOver: 0
+  playerController: {fileID: 0}
+  userController: {fileID: 0}
+  enemyController: {fileID: 0}
+  cameraController: {fileID: 0}
+  DoorManager: {fileID: 0}
+  overImages: {fileID: 0}
+  overMovie: {fileID: 0}
+  IsNowMessage: 0
+  mManager: {fileID: 0}
+  isChase: 0
+  isFirstChaseEnd: 0
+  FormerAreaID: 100
+  CurrentAreaID: 0
+  ChangeCount: 0
+  isCheckDoor: 0
+  IsGetKey: 0
+  IsEnd: 0
+--- !u!114 &697259703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173159603762652602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcbd7159600d2146b81058b732b0011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebug: 0
